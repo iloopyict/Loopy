@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(161, 138, 255, 1) 0%, rgba(255, 184, 219, 1) 100%);
+}
+
+
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.CekerJoe {
+  width: 55px;
+}
+
+.CekerBarrieJoeVincentKennardElbert {
+  width: 267px;
+}
+
+.gradient-text {
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    background: linear-gradient(100deg, #8A00FF,#00E5FF);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: colorcycle 10s linear infinite;
+}
+
+
+@keyframes colorcycle {
+    0%   { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+.loopy {
+    text-align: center;
+}
+
+
+
+
+.mandarin {
+    display: flex;
+    justify-content: center;  
+    gap: 25px;                
+    flex-wrap: wrap;          
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+
+
+.old {
+  width: 315px;
+  background:rgb(255, 212, 212);
+  border-radius: 14px;
+  padding: 15px;
+  box-sizing: border-box;
+ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 66px;
+}
+
+
+.old audio {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+
+
+
+.laoshi {
+  width: 315px;
+  background: rgb(255, 212, 212);
+  border-radius: 14px;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+.tormonitorketua {
+    display: flex;
+    justify-content: center;  
+    gap: 25px;                
+    flex-wrap: wrap;          
+}
+
+
+form h2 {
+  margin-bottom: 20px;
+  color:rgb(201, 112, 112);
+
+
+}
+
+
+label {
+  display: block;
+  text-align: left;
+  margin: 8px 0 4px;
+  font-weight: 600;
+  color: rgb(201, 112, 112);
+}
+
+
+input{
+  width:100%;
+  padding: 10px;
+  border: 2px rgb(255, 212, 212);
+  border-radius: 8px;
+  outline: none;
+}
+
+
+input:focus {
+  border-color: rgb(201, 112, 112);
+
+
+}
+
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background:  rgb(255, 212, 212);
+  color:white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s
+}
+
+
+.old:hover {
+  transform: translateY(-10px);
+  box-shadow:  rgb(255, 212, 212);
+}
+
+
+.tormonitorketua:hover {
+  transform: translateY(-10px);
+  box-shadow:  rgb(255, 212, 212);
+}

@@ -1,0 +1,123 @@
+body {
+    background-image: linear-gradient(180deg, rgba(0, 170, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    height: 100vh;
+}
+
+.logolaurenzia {
+    width: 5%;
+}
+
+.headerh1 {
+    text-align: center;
+    color:white;
+}
+
+.headerp {
+    text-align: center;
+    color:white;
+}
+
+.caloncontainerz {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5vh;
+    color:white;
+}
+
+.calon1satu {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    color:white;
+}
+
+.calon1satu:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+}
+
+.calon2dua {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    color:white;
+}
+
+.calon2dua:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+}
+
+.calon3tiga {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    color:white;
+}
+
+.calon3tiga:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+}
+
+.buttoncontainercalon123 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}  
+
+.calon1button {
+    background-color:rgb(106, 158, 255);
+    width:300px;
+    height: 50px;
+    outline-color: rgb(106, 158, 255);
+    border: none;
+    border-radius: 60px;
+}
+
+.calon1button:hover {
+    transform: translateY(-3px);
+}
+
+.calon2button {
+    background-color:rgb(106, 158, 255);
+    width:300px;
+    height: 50px;
+    border:none;
+    border-radius: 60px;
+}
+
+.calon2button:hover {
+    transform: translateY(-3px);
+}
+
+.calon3button {
+    background-color:rgb(106, 158, 255);
+    width:300px; 
+    height: 50px;
+    border:none;
+    border-radius: 60px;
+}
+
+.calon3button:hover {
+    transform: translateY(-3px);
+}
+
+body {
+    cursor: url('TigerCursor.png'), auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Selfies {
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
