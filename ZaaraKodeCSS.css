@@ -9,7 +9,7 @@ footer {
   text-align: center;
 }
 
-.center {
+.woaini {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +62,7 @@ footer {
 
 
 
-.old {
+.woxihuanni {
   width: 315px;
   background:rgb(255, 212, 212);
   border-radius: 14px;
@@ -74,7 +74,7 @@ footer {
 }
 
 
-.old audio {
+.woxihuanni audio {
   display: block;
   margin: 0 auto;
   width: 90%;
