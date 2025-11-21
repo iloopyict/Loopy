@@ -22,7 +22,6 @@ body {
     justify-content: center;
     gap: 30px;
     margin-top: 5vh;
-    color:white;
 }
 
 .calon1satu {
@@ -31,7 +30,6 @@ body {
     padding: 15px;
     width: 300px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    color:white;
 }
 
 .calon1satu:hover {
@@ -45,7 +43,6 @@ body {
     padding: 15px;
     width: 300px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    color:white;
 }
 
 .calon2dua:hover {
@@ -59,7 +56,6 @@ body {
     padding: 15px;
     width: 300px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    color:white;
 }
 
 .calon3tiga:hover {
@@ -85,6 +81,8 @@ body {
 
 .calon1button:hover {
     transform: translateY(-3px);
+    background-color: darkblue;
+    color:white;
 }
 
 .calon2button {
@@ -97,6 +95,8 @@ body {
 
 .calon2button:hover {
     transform: translateY(-3px);
+    background-color: darkblue;
+    color:white;
 }
 
 .calon3button {
@@ -109,6 +109,8 @@ body {
 
 .calon3button:hover {
     transform: translateY(-3px);
+    background-color: darkblue;
+    color:white;
 }
 
 body {
